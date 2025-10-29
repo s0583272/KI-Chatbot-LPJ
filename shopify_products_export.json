@@ -1,0 +1,977 @@
+[
+  {
+    "title": "Mountain Plaid",
+    "handle": "lpj-mountainplaid",
+    "productType": "Plaid",
+    "description": "Ein bisschen wie im Märchen: Unsere Mountain Plaid wird aus der feinsten mongolischen Schafswolle auf alten Webstühlen in Deutschland gewebt. Das klingt bewusst langsam und das ist es auch. Durch die ...",
+    "variants": [
+      {
+        "title": "grau",
+        "price": "349.0",
+        "available": true
+      },
+      {
+        "title": "braun",
+        "price": "349.0",
+        "available": true
+      },
+      {
+        "title": "wollweiss",
+        "price": "349.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Candy Plaid",
+    "handle": "lpj-plaid",
+    "productType": "Plaid",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten Strickproben aus luxuriösen italienischen Garnkollekti...",
+    "variants": [
+      {
+        "title": "bunt",
+        "price": "899.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Hundekissen klein",
+    "handle": "dog-pillow",
+    "productType": "Dog Pillow",
+    "description": "Kleine Vierbeiner und Katzen aufgepasst: Dieses Hundebett bietet deinem kleinen Begleiter eine bequeme Schlafmöglichkeit. Ob nun als Katzenbett oder für einen kleinen Hund, jedes Hundekissen wird lieb...",
+    "variants": [
+      {
+        "title": "gruen",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "rot",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "violett",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "grau",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "blau",
+        "price": "249.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Geringelte Wärmflasche",
+    "handle": "warmflasche",
+    "productType": "Wärmflasche",
+    "description": "Optisch ein Hingucker, made am Chiemsee - gefüllt eine warme Wohltat für Körper und Seele. Unsere Wärmflasche sieht mit der kleinen Tasche aus wie ein Rollkragenpulli und fühlt sich unglaublich weich ...",
+    "variants": [
+      {
+        "title": "creme weiss",
+        "price": "149.0",
+        "available": true
+      },
+      {
+        "title": "lila rot",
+        "price": "149.0",
+        "available": true
+      },
+      {
+        "title": "weiss schwarz",
+        "price": "149.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Alpen Plaid",
+    "handle": "alpen-plaid",
+    "productType": "Plaid",
+    "description": "Für emotionale Höhenflüge und philosophische Tiefen: Das LPJ Alpen Plaid ist ein echter Berg-Fex und wärmstens für jede Situation zu empfehlen. Handgestrickt aus einem hochwertigen, dicken Garn aus It...",
+    "variants": [
+      {
+        "title": "wollweiss",
+        "price": "659.0",
+        "available": true
+      },
+      {
+        "title": "flieder",
+        "price": "659.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Plaid bordeaux",
+    "handle": "lpj-plaid-colors",
+    "productType": "Plaid",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "bordeaux",
+        "price": "899.0",
+        "available": false
+      },
+      {
+        "title": "dunkles rosa",
+        "price": "899.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Plaid sand",
+    "handle": "lpj-plaid-off-white-1",
+    "productType": "Plaid",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "sand 1",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "sand 2",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "sand 3",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "sand 4",
+        "price": "899.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Hundekissen groß",
+    "handle": "dog-pillow-gross",
+    "productType": "Dog Pillow",
+    "description": "Große Vierbeiner aufgepasst: Dieses Hundebett ist riesig! Es bietet Hunden jeder Größe den bestmöglichen Platz und gleichzeitig einen stylischen und bequemen Ruhepol. Für nachhaltigen Schlaf wird jede...",
+    "variants": [
+      {
+        "title": "violett",
+        "price": "359.0",
+        "available": true
+      },
+      {
+        "title": "gruen",
+        "price": "359.0",
+        "available": true
+      },
+      {
+        "title": "grau",
+        "price": "359.0",
+        "available": false
+      },
+      {
+        "title": "dunkelblau",
+        "price": "359.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Kissen Quadrat",
+    "handle": "lpj-pillows",
+    "productType": "Kissen",
+    "description": "Bei unseren LPJ Kissen verbinden sich hochwertige Textilien aus der Modeindustrie zu kunstvollen Kissenkreationen. Diese kleinen Launemacher entstehen aus feinsten Wollen, aus hochwertigstem Kaschmir ...",
+    "variants": [
+      {
+        "title": "orange blau",
+        "price": "324.0",
+        "available": true
+      },
+      {
+        "title": "koenigsblau blau",
+        "price": "324.0",
+        "available": true
+      },
+      {
+        "title": "grau weiss",
+        "price": "324.0",
+        "available": true
+      },
+      {
+        "title": "pink rot",
+        "price": "324.0",
+        "available": false
+      },
+      {
+        "title": "rosa weiss",
+        "price": "324.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Cloud Plaid",
+    "handle": "lpj-cloud-plaid",
+    "productType": "Plaid",
+    "description": "Die Masche mit der Tradition: Die Kaschmirdecke wird tatsächlich noch handgestrickt, mitten in Aschau im Chiemgau. Zwölf Stunden und ein feines Gespür benötigt die Fertigung. Ein wahres Luxusstück von...",
+    "variants": [
+      {
+        "title": "beige / Kaschmir",
+        "price": "1399.0",
+        "available": true
+      },
+      {
+        "title": "beige / Kaschmir mit Lurex",
+        "price": "1399.0",
+        "available": true
+      },
+      {
+        "title": "gelb / Kaschmir",
+        "price": "1399.0",
+        "available": true
+      },
+      {
+        "title": "grau / Kaschmir",
+        "price": "1399.0",
+        "available": true
+      },
+      {
+        "title": "grau / Kaschmir mit Lurex",
+        "price": "1399.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Garden Plaid Multicolor",
+    "handle": "lpj-garden-plaid-multicolor",
+    "productType": "Plaid",
+    "description": "Ein handfester Blickfang: Diese Strickdecke im spannenden Streifenlook ist nicht nur optisch ein Vergnügen. Ihre Textur ist so außergewöhnlich, dass man kaum mehr die Finger davon lassen mag. Das Gehe...",
+    "variants": [
+      {
+        "title": "multicolor grau",
+        "price": "449.0",
+        "available": true
+      },
+      {
+        "title": "multicolor lila",
+        "price": "449.0",
+        "available": true
+      },
+      {
+        "title": "multicolor gruen",
+        "price": "449.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Holzmonster",
+    "handle": "lpj-holzmonster",
+    "productType": "Holzmonster",
+    "description": "Monstermäßig schön und witzig: Unsere drei Holzmonster Lisa, Paul und Joseph. Sie werden aus Eschenholz regional in einer Behindertenwerkstatt in Deutschland gefertigt und sind die perfekten Freunde z...",
+    "variants": [
+      {
+        "title": "hellbraun",
+        "price": "69.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Kissen Rechteck",
+    "handle": "lpj-pillow-rechteck",
+    "productType": "Kissen",
+    "description": "Bei unseren LPJ Kissen verbinden sich hochwertige Textilien aus der Modeindustrie zu kunstvollen Kissenkreationen. Diese kleinen Launemacher entstehen aus feinsten Wollen, aus hochwertigstem Kaschmir ...",
+    "variants": [
+      {
+        "title": "orange rosa",
+        "price": "324.0",
+        "available": true
+      },
+      {
+        "title": "hellgruen apfel",
+        "price": "324.0",
+        "available": false
+      },
+      {
+        "title": "lavendel gelb",
+        "price": "324.0",
+        "available": true
+      },
+      {
+        "title": "rosa blau",
+        "price": "324.0",
+        "available": false
+      },
+      {
+        "title": "rosa gelb",
+        "price": "324.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Monsterkissen Lisa klein - Wollsamt",
+    "handle": "lpj-monster-lisa-klein-wollsamt",
+    "productType": "Monster",
+    "description": "Es ist immer wieder ein ganz besonderes Gefühl, mit den Händen über einen Samtstoff zu streichen. Das gilt auch für diese kleinen Kissen. Sie sind aus einem hochwertigen Wollsamt gefertigt, der Luxus ...",
+    "variants": [
+      {
+        "title": "blassgelb",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "bordeaux",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "moosgruen",
+        "price": "199.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Monsterkissen Paul klein - Wollsamt",
+    "handle": "lpj-monster-paul-klein-wollsamt",
+    "productType": "Monster",
+    "description": "Es ist immer wieder ein ganz besonderes Gefühl, mit den Händen über einen Samtstoff zu streichen. Das gilt auch für diese kleinen Samtkissen. Sie sind aus einem hochwertigen Wollsamt gefertigt, der Lu...",
+    "variants": [
+      {
+        "title": "dunkelrot",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "dunkelgrau",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "gruen",
+        "price": "199.0",
+        "available": false
+      },
+      {
+        "title": "moosgruen",
+        "price": "199.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Monsterkissen Lisa groß - Wollsamt",
+    "handle": "lpj-monster-lisa-gross-samt",
+    "productType": "Monster",
+    "description": "Es ist immer wieder ein ganz besonderes Gefühl, mit den Händen über einen Samtstoff zu streichen. Das gilt auch für dieses Lisa Monster. Es ist aus einem hochwertigen Wollsamt gefertigt, der Luxus aus...",
+    "variants": [
+      {
+        "title": "dunkelorange",
+        "price": "349.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Yogakissen",
+    "handle": "lpj-yogakissen",
+    "productType": "Yogakissen",
+    "description": "Gefertigt sind die Yogakissen aus hochwertigen Samt, der aus einer alten Wollsamtherstellung in Norddeutschland stammt. Der Betrieb wurde aufgelöst und so entstehen nun wunderbare Accessoires aus den ...",
+    "variants": [
+      {
+        "title": "pfirsich",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "sonnengelb",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "blassgelb",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "dunkelblau",
+        "price": "249.0",
+        "available": true
+      },
+      {
+        "title": "neonorange",
+        "price": "249.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Rug grau",
+    "handle": "lpj-rug-grau",
+    "productType": "Rug",
+    "description": "Immer schön auf dem Teppich bleiben; zumindest auf diesem, denn unser Webteppich verwebt altes Handwerk mit modernem Design. Dafür werden hochwertige Stoffreste von unseren Designern mit viel Feingefü...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "499.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Rug braun kupfer",
+    "handle": "lpj-rug-braun-kupfer",
+    "productType": "Rug",
+    "description": "Immer schön auf dem Teppich bleiben; zumindest auf diesem, denn unser Webteppich verwebt altes Handwerk mit modernem Design. Dafür werden hochwertige Stoffreste von unseren Designern mit viel Feingefü...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "499.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Raumteiler",
+    "handle": "raumteiler",
+    "productType": "Raumteiler",
+    "description": "Der LPJ Raumteiler vereint zwei sehr besondere Eigenschaften: Durch sein luftiges Design lässt er den Raum nicht kleiner wirken, trennt ihn jedoch klar und deutlich in zwei Teile. Er wird aus 100% bes...",
+    "variants": [
+      {
+        "title": "schwarz",
+        "price": "690.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Lodge Plaid",
+    "handle": "lpj-lodge-plaid",
+    "productType": "Plaid",
+    "description": "Unsere Lodge Plaid ist aus einer schweren Wollqualität. Sie eignet sich auch für den Außenbereich und ist sehr warm und weich. Eingefasst wird sie mit einem gestrickten Band, welches in Deutschland be...",
+    "variants": [
+      {
+        "title": "orange",
+        "price": "299.0",
+        "available": true
+      },
+      {
+        "title": "rot",
+        "price": "299.0",
+        "available": true
+      },
+      {
+        "title": "lila",
+        "price": "299.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Yoga Plaid",
+    "handle": "lpj-yoga-plaid",
+    "productType": "Plaid",
+    "description": "Das Yoga Plaid entfaltet entspannte Feriengefühle - selbst zu Hause. Eine Decke aus schwerer, weicher Kaschmirqualität, die nicht müde wird zu wärmen und für angenehme Stimmung zu sorgen, ob auf der F...",
+    "variants": [
+      {
+        "title": "hellblau",
+        "price": "499.0",
+        "available": true
+      },
+      {
+        "title": "grau",
+        "price": "499.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Rug creme",
+    "handle": "lpj-rug-creme",
+    "productType": "Rug",
+    "description": "Immer schön auf dem Teppich bleiben; zumindest auf diesem, denn unser Webteppich verwebt altes Handwerk mit modernem Design. Dafür werden hochwertige Stoffreste von unseren Designern mit viel Feingefü...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "499.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Mountain Rug",
+    "handle": "lpj-mountain-rug-braun",
+    "productType": "Rug",
+    "description": "Die Berge zu Füßen oder eher der Himmel auf Erden: Man kann ihn drehen und wenden wie man will, dieser Teppich ist nicht nur ein Blickfang für jeden Boden, sondern auch wärmendes Highlight für kalte F...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "599.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Wärmflasche Wolle",
+    "handle": "lpj-mountain-warmflasche",
+    "productType": "Wärmflasche",
+    "description": "Sheep warm you better... Die Wolle für unsere Mountain Wärmflasche ist die gleiche wie die unserer Mountain Plaids. Immer wieder haben wir Probestücke des wunderbar weichen Schafwollegewebes in unsere...",
+    "variants": [
+      {
+        "title": "wollweiss",
+        "price": "69.0",
+        "available": true
+      },
+      {
+        "title": "grau",
+        "price": "69.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Schneidebrett",
+    "handle": "lpj-woodboard",
+    "productType": "Schneidebretter",
+    "description": "Ungeheuer praktisch: Wer Unterstützung bei der Küchenparty sucht, sollte sich unsere dekorativen Schneidebretter Lisa, Paul und Joseph zur Seite holen. Denn diese drei monstermäßigen Holzbretter aus e...",
+    "variants": [
+      {
+        "title": "geoelt",
+        "price": "149.0",
+        "available": true
+      },
+      {
+        "title": "geraeuchert",
+        "price": "149.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Blossom Plaid",
+    "handle": "lpj-blossom-plaid",
+    "productType": "Plaid",
+    "description": "Verstrickte Sommergefühle: Die bunt blühende LPJ Blossom Plaid mit außergewöhnlicher Textur ist eine wahre Liebeserklärung und steckt voll sonnenwarmer Erinnerungen. Das Garn, das aus einer besonderen...",
+    "variants": [
+      {
+        "title": "rosa",
+        "price": "599.0",
+        "available": true
+      },
+      {
+        "title": "bordeaux",
+        "price": "599.0",
+        "available": true
+      },
+      {
+        "title": "gelb",
+        "price": "599.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Monsterkissen Paul klein - Wolle",
+    "handle": "lpj-monster-paul-klein-wolle",
+    "productType": "Monster",
+    "description": "Ganz besonders weich sind unsere Monsterkissen aus Wolle. Stell dir vor, du hättest deinen gemütlichsten Wollmantel als Kissen auf deinem Sofa liegen. Jedes dieser Wollmonster wird dich verzaubern! Be...",
+    "variants": [
+      {
+        "title": "gruen",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "gelbgruen",
+        "price": "199.0",
+        "available": true
+      },
+      {
+        "title": "olivegruen",
+        "price": "199.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "C' Plaid",
+    "handle": "lpj-c-plaid",
+    "productType": "Plaid",
+    "description": "Für noch mehr Leichtigkeit des Seins: Die C‘ Plaid schafft die Gratwanderung einer Lieblingsdecke für jede Lebenslage noch leichtfüßiger. Auch diese Decke wird aus recyceltem Kaschmir hergestellt und ...",
+    "variants": [
+      {
+        "title": "grau",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "sand",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "gelb",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "rot",
+        "price": "899.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Plaid blau",
+    "handle": "lpj-plaid-blau",
+    "productType": "Decken",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "blau",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "hellblau",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "dunkelblau",
+        "price": "899.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Plaid peach",
+    "handle": "lpj-plaid-hellblau",
+    "productType": "Decken",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "peach",
+        "price": "899.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Pako Plaid",
+    "handle": "lpj-pako-plaid",
+    "productType": "Plaid",
+    "description": "Decke mit Fernwehfaktor: Das flauschige Pako Plaid ist nicht nur ein musterhafter Eyecatcher, die Decke verbindet auch alpines Flair mit orientalischen Akzenten. Denn hier vereinen sich hochwertige Ba...",
+    "variants": [
+      {
+        "title": "camel",
+        "price": "749.0",
+        "available": true
+      },
+      {
+        "title": "sand",
+        "price": "749.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Handcrafted Plaid",
+    "handle": "lpj-handcraft-plaid",
+    "productType": "Plaid",
+    "description": "Mit der Handcrafted Plaid bekommt das kontrastreiche Spiel definitiv eine neue Dimension. Die voluminöse Decke wird aus hochwertigen Fasern in unserem Studio in Aschau mit auffälliger Masche und abwec...",
+    "variants": [
+      {
+        "title": "schwarz weiss",
+        "price": "689.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Plaid schwarz",
+    "handle": "lpj-plaid-schwarz",
+    "productType": "Decken",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "schwarz",
+        "price": "899.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "P' Rug The Face",
+    "handle": "p-rug-the-face",
+    "productType": "Rug",
+    "description": "Der P' RUG ist unsere Perle des Upcyclings. Außergewöhnlich und individuell, denn wir können eure Lieblingspullis und Wollteile darin verewigen! Für diesen Teppich werden verschiedene Wollmaterialien ...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "1299.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "P' Rug Kontraste",
+    "handle": "p-rug-kontraste",
+    "productType": "Rug",
+    "description": "Der P' RUG ist unsere Perle des Upcyclings. Außergewöhnlich und individuell, denn wir können eure Lieblingspullis und Wollteile darin verewigen! Für diesen Teppich werden verschiedene Wollmaterialien ...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "1299.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "P' Rug Grey",
+    "handle": "p-rug-grey",
+    "productType": "Rug",
+    "description": "Der P' RUG ist unsere Perle des Upcyclings. Außergewöhnlich und individuell, denn wir können eure Lieblingspullis und Wollteile darin verewigen! Für diesen Teppich werden verschiedene Wollmaterialien ...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "1299.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "P' Rug The White P'",
+    "handle": "p-rug-the-dark-p",
+    "productType": "Rug",
+    "description": "Der P' RUG ist unsere Perle des Upcyclings. Außergewöhnlich und individuell, denn wir können eure Lieblingspullis und Wollteile darin verewigen! Für diesen Teppich werden verschiedene Wollmaterialien ...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "1299.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "P' Rug Grey in Grey",
+    "handle": "p-rug-grey-in-grey",
+    "productType": "Rug",
+    "description": "Der P' RUG ist unsere Perle des Upcyclings. Außergewöhnlich und individuell, denn wir können eure Lieblingspullis und Wollteile darin verewigen! Für diesen Teppich werden verschiedene Wollmaterialien ...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "1299.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Gutschein",
+    "handle": "lpj-geschenkgutschein",
+    "productType": "Geschenkgutschein",
+    "description": "Mit einem LPJ Gutschein und einer von dir personalisierbaren Geschenkkarte Freude bereiten und Wünsche erfüllen! Und so geht's: Bei LPJ Studios kannst du neben dem Betrag zwei Gutscheinvarianten wähle...",
+    "variants": [
+      {
+        "title": "25 € / Digital / Klassisches Design",
+        "price": "25.0",
+        "available": true
+      },
+      {
+        "title": "25 € / Analog per Brief / Klassisches Design",
+        "price": "25.0",
+        "available": true
+      },
+      {
+        "title": "25 € / Analog per Brief / Monsterdesign",
+        "price": "25.0",
+        "available": true
+      },
+      {
+        "title": "25 € / Analog per Brief / Weihnachtsdesign",
+        "price": "25.0",
+        "available": true
+      },
+      {
+        "title": "25 € / Analog per Brief / Geburtstagsdesign",
+        "price": "25.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "LPJ x Henrike Panke Objektkunst Zusammenhalt",
+    "handle": "lpj-x-henrike-panke-objektkunst-zusammenhalt",
+    "productType": "Kunst",
+    "description": "Verschiedene Flächen, Formen, Strukturen und Linien – in einer Art Zusammenhalt und doch in Bewegung, denn der Balken hebt sich ab und möchte raus aus seiner Starrheit. Ich hatte für mich selber das G...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "2400.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "LPJ x Henrike Panke Objektkunst Form trifft Farbe",
+    "handle": "lpj-x-henrike-panke-objektkunst-form-trifft-farbe",
+    "productType": "Kunst",
+    "description": "Es ist ein klirrend kalter Wintertag. Die Sonne scheint durch die Bäume und wirft den Schatten der Äste auf den Boden. Dieses magische Zusammenspiel von Licht und Schatten gab mir die Inspiration zu F...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "2400.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "LPJ x Henrike Panke Objektkunst Planeten",
+    "handle": "lpj-x-henrike-panke-objektkunst-planeten",
+    "productType": "Kunst",
+    "description": "Schon von klein auf begeisterte mich der Himmel und das unendlich große Weltall. Der Mars, äußerer Nachbar der Erde, fasziniert mich dabei am meisten und inspirierte mich für dieses Kunstwerk. Die Lin...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "2400.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "LPJ x Henrike Panke Objektkunst Begegnungen",
+    "handle": "lpj-x-henrike-panke-objektkunst-begegnungen",
+    "productType": "Teppiche",
+    "description": "Ich wachte eines Morgens in einem Hotelzimmer auf und hatte dieses Bild vor Augen. Schnell nahm ich meinen Laptop und zeichnete diese Kreise. Das Wort „Begegnungen“tauchte auf. Denn es sind die Begegn...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "2400.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Check Plaid",
+    "handle": "check-plaid",
+    "productType": "Plaid",
+    "description": "Verstrickte Schachgefüh­le: Die LPJ Check Plaid mit außergewöhnlicher Textur ist etwas ganz Besonde­res. Das Garn, das aus einer besonderen Alpaca­mischung besteht, wird in Italien versponnen und gest...",
+    "variants": [
+      {
+        "title": "pink kariert",
+        "price": "549.0",
+        "available": true
+      },
+      {
+        "title": "blau kariert",
+        "price": "549.0",
+        "available": true
+      },
+      {
+        "title": "lila kariert",
+        "price": "549.0",
+        "available": true
+      },
+      {
+        "title": "rosa kariert",
+        "price": "549.0",
+        "available": true
+      },
+      {
+        "title": "gruen kariert",
+        "price": "549.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Fringe Plaid",
+    "handle": "fringe-plaid",
+    "productType": "Plaid",
+    "description": "Decke mit Fernwehfaktor: Die flauschige LPJ Fringe Plaid ist nicht nur ein musterhafter Eyecatcher, sie verbindet auch alpines Flair mit orientalischen Akzenten. Denn hier vereinen sich hochwertige Al...",
+    "variants": [
+      {
+        "title": "beige",
+        "price": "889.0",
+        "available": false
+      },
+      {
+        "title": "camel",
+        "price": "889.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Handcrocheted Plaid",
+    "handle": "hand-crochet-plaid",
+    "productType": "Plaid",
+    "description": "Wir häkeln uns die Welt, wie sie uns gefällt! Unsere LPJ Handcrocheted Plaid glänzt mit einer wunder­schönen Optik und Haptik. Die voluminöse Decke wird aus hochwerti­gen Fasern in unserem Studio in A...",
+    "variants": [
+      {
+        "title": "farbmix",
+        "price": "949.0",
+        "available": true
+      },
+      {
+        "title": "farbmix dunkel",
+        "price": "949.0",
+        "available": false
+      }
+    ]
+  },
+  {
+    "title": "Handcrafted Rug",
+    "handle": "lpj-handcrafted-rug",
+    "productType": "Rug",
+    "description": "Ein bisschen präsenter, ein bisschen mehr Wolle. Unser Handcrafted Rug aus 100 % Schafwolle wird mit einem speziellen sechs Schuss Webverfahren lokal gefertigt. Die Schafwolle kommt aus Deutschland un...",
+    "variants": [
+      {
+        "title": "Default Title",
+        "price": "589.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Sheep Plaid",
+    "handle": "lpj-sheep-plaid",
+    "productType": "Decken",
+    "description": "Eine Decke für alle Fälle. Eine Decke, die bestimmt auch unsere Männerwelt verzaubern wird. Unsere Sheep Plaid vereint Eleganz und wollige Wärme. Zwei unterschiedliche Seiten werden durch einen bunten...",
+    "variants": [
+      {
+        "title": "braun",
+        "price": "449.0",
+        "available": true
+      }
+    ]
+  },
+  {
+    "title": "Plaid grau",
+    "handle": "lpj-plaid-grau",
+    "productType": "Decken",
+    "description": "Im Großen und Ganzen: Diese Laschendecke ist mehr als die Summe ihrer Teile. Dieses Plaid ist das Magnum Opus unserer Deckenkunst. Denn sie besteht aus mehr als 50 hochwertigen, von Hand ausgesuchten ...",
+    "variants": [
+      {
+        "title": "grau",
+        "price": "899.0",
+        "available": true
+      },
+      {
+        "title": "dunkelgrau",
+        "price": "899.0",
+        "available": true
+      }
+    ]
+  }
+]

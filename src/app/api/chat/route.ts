@@ -706,7 +706,6 @@ export async function POST(request: NextRequest) {
     // Intelligente Antwort-Strategie basierend auf der Frage
     const lowerMessage = message.toLowerCase();
     let responseType = 'detailed'; // standard: ausführliche Beratung
-    let searchQuery = '';
     
     // Intelligente Antwort-Strategie basierend auf der Frage
     if (lowerMessage.includes('farben') || lowerMessage.includes('farbe')) {
@@ -759,9 +758,9 @@ export async function POST(request: NextRequest) {
     }
     
     // Produktsuche
-    if (lowerMessage.includes('cloud plaid') || lowerMessage.includes('cloud')) {
-      searchQuery = 'cloud';
-    }
+    // if (lowerMessage.includes('cloud plaid') || lowerMessage.includes('cloud')) {
+    //   searchQuery = 'cloud';
+    // }
 
     // Hol Produkte von Shopify
     const productsStartTime = Date.now();
@@ -776,11 +775,12 @@ export async function POST(request: NextRequest) {
       response = await sendMessageToGemini(message, products, responseType);
       const geminiEndTime = Date.now();
       console.log(`🤖 Gemini Antwort generiert in ${geminiEndTime - geminiStartTime}ms`);
-    } catch (geminiError: any) {
+    } catch (geminiError: unknown) {
       const geminiEndTime = Date.now();
       console.error(`❌ Gemini FEHLER nach ${geminiEndTime - geminiStartTime}ms:`, geminiError);
       
-      if (geminiError.message?.includes('overloaded')) {
+      const errorMessage = geminiError instanceof Error ? geminiError.message : String(geminiError);
+      if (errorMessage.includes('overloaded')) {
         // Fallback bei Gemini-Überlastung
         response = "Unser KI-Assistent ist momentan überlastet. Bitte versuche es in wenigen Sekunden erneut oder stelle eine spezifischere Frage.";
       } else {

@@ -6,37 +6,32 @@ hier ist dein **KI-Chatbot Prototyp** zum Testen!
 
 ---
 
-## So bekommst du den aktuellen Code:
+## EINFACH: Chatbot direkt im Browser testen
 
-### Option 1: GitHub Download (Einfach)
-1. Gehe zu: **https://github.com/s0583272/KI-Chatbot-LPJ**
-2. Klicke auf **grünen "Code" Button**
-3. Wähle **"Download ZIP"**
-4. Entpacke die Datei auf deinem Computer
+**Nach dem Deployment ist der Chatbot unter folgendem Link verfügbar:**
 
-### Option 2: Git Clone (für Updates)
+### **[CHATBOT-URL WIRD NACH DEPLOYMENT HIER EINGEFÜGT]**
+
+**Kein Download, keine Installation nötig - einfach Link öffnen und loslegen!**
+
+---
+
+## Für Entwickler: Lokale Installation
+
+Falls du den Code lokal ausführen möchtest:
+
+### 1. Code herunterladen:
 ```bash
 git clone https://github.com/s0583272/KI-Chatbot-LPJ.git
 cd KI-Chatbot-LPJ
 ```
 
----
-
-## Installation & Start:
-
-### 1. Node.js installieren (falls nicht vorhanden):
-- Download: https://nodejs.org/ (LTS Version)
-
-### 2. Projekt starten:
+### 2. Starten:
 ```bash
-# Im Projektordner:
 npm install
 npm run dev
+# URL: http://localhost:3000
 ```
-
-### 3. Chatbot öffnen:
-- **URL:** http://localhost:3000
-- Der Chatbot läuft jetzt lokal auf deinem Computer
 
 ---
 

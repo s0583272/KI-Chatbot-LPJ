@@ -71,11 +71,13 @@ interface Product {
       };
     }>;
   };
-  images: {
+  images?: {
     edges: Array<{
       node: {
         url: string;
         altText?: string;
+        width?: number;
+        height?: number;
       };
     }>;
   };
@@ -438,17 +440,22 @@ async function sendMessageToGemini(userMessage: string, products: Product[], res
       }
     }
     
-    return `**${product.title}**: ${fullDescription}${materialTags ? ` Material: ${materialTags}.` : ''}${variantInfo}${variantList} Preis: ${priceRange} <a href="https://${SHOPIFY_STORE_DOMAIN}/products/${product.handle}" target="_blank" rel="noopener noreferrer">[Zum Produkt]</a>`;
+    // Produktbild URL extrahieren (erstes verfügbares Image)
+    const imageUrl = product.images?.edges?.[0]?.node?.url || '';
+    
+    return `**${product.title}**: ${fullDescription}${materialTags ? ` Material: ${materialTags}.` : ''}${variantInfo}${variantList} Preis: ${priceRange} Handle: ${product.handle} ImageURL: ${imageUrl} <a href="https://${SHOPIFY_STORE_DOMAIN}/products/${product.handle}" target="_blank" rel="noopener noreferrer">[Zum Produkt]</a>`;
   }).join('\n\n');
 
-  // EINHEITLICHE HTML-STRUKTUR für ALLE Produkttypen
+  // EINHEITLICHE HTML-STRUKTUR für ALLE Produkttypen mit Bildunterstützung
   const STANDARD_HTML_FORMAT = `
 ANTWORT-FORMAT für ALLE Produkttypen:
 Verwende für JEDES Produkt EXAKT diese HTML-Struktur:
 
-<div style="border-left: 4px solid #2563eb; background-color: #f8fafc; padding: 16px; border-radius: 8px; margin: 16px 0;">
-<h3 style="color: #2563eb; margin: 0; font-size: 1.25rem; font-weight: 600;"><a href="https://lpj-studios.myshopify.com/products/[handle]" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">Produktname</a></h3>
-<p style="margin: 12px 0 0 0; color: #374151; line-height: 1.6;">Beschreibung. Verfügbare Farben: [Farben]. Preis: XXX €</p>
+<div style="border: 2px solid #1e40af; background-color: #ffffff; padding: 16px; border-radius: 8px; margin: 16px 0;" data-product-handle="[handle]" data-product-image="[imageUrl]">
+<h3 style="color: #000000; margin: 0; font-size: 1.25rem; font-weight: 600;">Produktname</h3>
+<p style="margin: 12px 0 0 0; color: #374151; line-height: 1.6;">Beschreibung. Verfügbare Farben: [Farben].</p>
+<strong style="color: #000000;">€XXX</strong>
+<a href="https://lpj-studios.myshopify.com/products/[handle]" target="_blank" rel="noopener noreferrer" style="display: none;">Link</a>
 </div>
 
 VERFÜGBARKEITS-HINWEISE:
@@ -549,13 +556,15 @@ WICHTIGE FILTERUNG:
 - KEINE Hundekissen zeigen
 
 ANTWORT-FORMAT für Schafwoll-Decken:
-- Verwende HTML für schöne blaue Boxen
-- Jede Decke in separater blauer Box mit anklickbarem Namen
+- Verwende HTML für schwarz-weiße Produktkarten
+- Jede Decke in separater Produktkarte
 - Format für jede Decke:
 
-<div style="border-left: 4px solid #2563eb; background-color: #f8fafc; padding: 16px; border-radius: 8px; margin: 16px 0;">
-<h3 style="color: #2563eb; margin: 0; font-size: 1.25rem; font-weight: 600;"><a href="https://lpj-studios.myshopify.com/products/[handle]" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none;">Produktname</a></h3>
-<p style="margin: 12px 0 0 0; color: #374151; line-height: 1.6;">Beschreibung. Verfügbare Farben: [Farben]. Preis: XXX €</p>
+<div style="border: 2px solid #1e40af; background-color: #ffffff; padding: 16px; border-radius: 8px; margin: 16px 0;" data-product-handle="[handle]" data-product-image="[imageUrl]">
+<h3 style="color: #000000; margin: 0; font-size: 1.25rem; font-weight: 600;">Produktname</h3>
+<p style="margin: 12px 0 0 0; color: #374151; line-height: 1.6;">Beschreibung. Verfügbare Farben: [Farben].</p>
+<strong style="color: #000000;">€XXX</strong>
+<a href="https://lpj-studios.myshopify.com/products/[handle]" target="_blank" rel="noopener noreferrer" style="display: none;">Link</a>
 </div>
 
 WICHTIG: MAXIMAL 10 Produkte zeigen und NUR echte Decken/Plaids!

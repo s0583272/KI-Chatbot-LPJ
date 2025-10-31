@@ -2,25 +2,59 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
-@theme inline {
+/* Theme variables */
+* {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Schwarz-Weiß Design für Chatbot */
+.chat-container {
+  background: white;
+  border: 2px solid black;
+}
+
+.user-message {
+  background: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.bot-message {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.product-card {
+  background: white;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px black;
+}
+
+.product-button {
+  background: black;
+  color: white;
+  border: 2px solid black;
+  transition: all 0.2s;
+  padding: 6px 12px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-button:hover {
+  background: white;
+  color: black;
 }

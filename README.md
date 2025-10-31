@@ -1,22 +1,22 @@
-# 🤖 LPJ Studios KI-Chatbot - Prototyp v1.0
+# LPJ Studios KI-Chatbot - Prototyp v1.0
 
 Intelligenter Produktberater für LPJ Studios mit Shopify-Integration und Gemini AI.
 
-## 🎯 Aktueller Entwicklungsstand
+## Aktueller Entwicklungsstand
 
-### ✅ Implementierte Features:
+### Implementierte Features:
 - **Shopify Integration:** Automatischer Produktimport via GraphQL API
 - **Gemini AI Integration:** Intelligente Kundenberatung auf Deutsch
 - **Performance-Cache:** 30-Minuten Zwischenspeicher für schnelle Antworten
 - **Responsive Design:** Chat-Interface für Desktop und Mobile
 - **Produktkategorien:** Decken, Teppiche, Accessoires mit intelligenter Filterung
 
-### 🚀 Performance:
+### Performance:
 - **Cache Hit:** ~2 Sekunden Antwortzeit
 - **Cache Miss:** ~5-10 Sekunden (erste Anfrage nach Neustart)
 - **Produktdaten:** Automatische Synchronisation alle 30 Minuten
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation:
 ```bash
@@ -38,7 +38,7 @@ GEMINI_API_KEY=dein_gemini_api_key
 
 ---
 
-## 🧪 Test-Instructions für Kunden
+## Test-Instructions für Kunden
 
 ### Teste verschiedene Fragen:
 - "Welche Decken gibt es?"
@@ -48,19 +48,19 @@ GEMINI_API_KEY=dein_gemini_api_key
 - "Welche Teppiche bietet ihr an?"
 
 ### Was funktioniert:
-- ✅ Produktsuche und -anzeige
-- ✅ Preisinformationen
-- ✅ Kategorisierung (Decken, Teppiche, etc.)
-- ✅ Direkte Produktlinks
-- ✅ Deutsche Sprache
+- Produktsuche und -anzeige
+- Preisinformationen
+- Kategorisierung (Decken, Teppiche, etc.)
+- Direkte Produktlinks
+- Deutsche Sprache
 
 ### Bekannte Einschränkungen:
-- ⚠️ Performance bei erster Anfrage nach Server-Neustart langsam
-- ⚠️ Gemini AI gelegentlich langsam (abhängig von Google-Servern)
+- Performance bei erster Anfrage nach Server-Neustart langsam
+- Gemini AI gelegentlich langsam (abhängig von Google-Servern)
 
 ---
 
-## 🔄 Feedback-Prozess
+## Feedback-Prozess
 
 ### Bitte teste und berichte:
 1. **Funktionalität:** Was funktioniert gut/schlecht?
@@ -86,7 +86,7 @@ PRIORITÄT:
 
 ---
 
-## 🚀 Update-Prozess
+## Update-Prozess
 
 Nach Feedback:
 1. **Bugfixes & Improvements** werden implementiert
@@ -96,7 +96,7 @@ Nach Feedback:
 
 ---
 
-## 📞 Support
+## Support
 
 Bei Fragen oder Problemen:
 - **GitHub Issues:** https://github.com/s0583272/KI-Chatbot-LPJ/issues
@@ -106,4 +106,4 @@ Bei Fragen oder Problemen:
 
 **Version:** 1.0 - Prototyp  
 **Datum:** 31. Oktober 2025  
-**Status:** Ready for Customer Testing 🧪
+**Status:** Ready for Customer Testing

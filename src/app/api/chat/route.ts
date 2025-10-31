@@ -415,7 +415,7 @@ async function sendMessageToGemini(userMessage: string, products: Product[], res
     let availabilityInfo = '';
     if (soldOutVariants.length > 0 && availableVariants.length === 0) {
       // Komplett ausverkauft - ALLE Farben nicht verfügbar
-      availabilityInfo = ' ⚠️ Aktuell ausverkauft - auf Anfrage gerne wieder herstellbar!';
+      availabilityInfo = ' Aktuell ausverkauft - auf Anfrage gerne wieder herstellbar!';
     } else if (soldOutVariants.length > 0 && availableVariants.length > 0) {
       // Teilweise ausverkauft - nur BESTIMMTE Farben nicht verfügbar
       const soldOutColors = soldOutVariants.map(v => v.title).join(', ');
@@ -452,7 +452,7 @@ Verwende für JEDES Produkt EXAKT diese HTML-Struktur:
 </div>
 
 VERFÜGBARKEITS-HINWEISE:
-- Wenn Produkt komplett ausverkauft: "⚠️ Aktuell ausverkauft - auf Anfrage gerne wieder herstellbar!"
+- Wenn Produkt komplett ausverkauft: "Aktuell ausverkauft - auf Anfrage gerne wieder herstellbar!"
 - Wenn einzelne Farben ausverkauft: "(Farbe XXX aktuell ausverkauft - auf Anfrage herstellbar)"
 - Verwende die Verfügbarkeits-Infos aus den Produktdaten
 

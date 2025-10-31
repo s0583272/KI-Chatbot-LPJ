@@ -1,12 +1,12 @@
-# 🎯 Kunden-Testanleitung: LPJ Chatbot
+# Kunden-Testanleitung: LPJ Chatbot
 
 ## Lieber Kunde,
 
-hier ist dein **KI-Chatbot Prototyp** zum Testen! 🚀
+hier ist dein **KI-Chatbot Prototyp** zum Testen!
 
 ---
 
-## 📥 So bekommst du den aktuellen Code:
+## So bekommst du den aktuellen Code:
 
 ### Option 1: GitHub Download (Einfach)
 1. Gehe zu: **https://github.com/s0583272/KI-Chatbot-LPJ**
@@ -22,7 +22,7 @@ cd KI-Chatbot-LPJ
 
 ---
 
-## ⚙️ Installation & Start:
+## Installation & Start:
 
 ### 1. Node.js installieren (falls nicht vorhanden):
 - Download: https://nodejs.org/ (LTS Version)
@@ -40,7 +40,7 @@ npm run dev
 
 ---
 
-## 🧪 Was du testen solltest:
+## Was du testen solltest:
 
 ### Grundfunktionen:
 - [ ] "Hallo" - Begrüßung funktioniert?
@@ -62,7 +62,7 @@ npm run dev
 
 ---
 
-## 📝 Feedback bitte an mich:
+## Feedback bitte an mich:
 
 ### Was läuft gut?
 - Welche Antworten sind super?
@@ -81,7 +81,7 @@ npm run dev
 
 ---
 
-## 🔄 Updates bekommen:
+## Updates bekommen:
 
 ### Bei Git Clone:
 ```bash
@@ -96,7 +96,7 @@ npm run dev
 
 ---
 
-## 🆘 Bei Problemen:
+## Bei Problemen:
 
 1. **Server startet nicht?**
    - Node.js installiert? (`node --version`)
@@ -112,7 +112,7 @@ npm run dev
 
 ---
 
-## 📞 Kontakt für Feedback:
+## Kontakt für Feedback:
 
 **Nach jedem Test bitte melden mit:**
 - Was getestet wurde
@@ -120,9 +120,9 @@ npm run dev
 - Priorität der Änderungen
 - Neue Wünsche
 
-**Ich implementiere dein Feedback sofort und schicke dir die verbesserte Version!** 🚀
+**Ich implementiere dein Feedback sofort und schicke dir die verbesserte Version!**
 
 ---
 
-**Viel Spaß beim Testen!** 😊  
+**Viel Spaß beim Testen!**  
 *Dein Entwicklerteam*
